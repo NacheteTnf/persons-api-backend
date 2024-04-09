@@ -1,0 +1,10 @@
+::1 - - [09/Apr/2024:09:46:51 +0000] "GET /api/persons/1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2024:09:46:56 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Apr/2024:09:47:19 +0000] "GET /api/persons/ HTTP/1.1" 200 223 "-" "vscode-restclient"
+::1 - - [09/Apr/2024:09:48:11 +0000] "GET /api/persons/ HTTP/1.1" 200 223 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2024:09:48:16 +0000] "GET /api/persons/2 HTTP/1.1" 200 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Apr/2024:09:48:28 +0000] "GET /api/persons/2 HTTP/1.1" 200 55 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [09/Apr/2024:09:50:21 +0000] "GET /api/persons/2 HTTP/1.1" 200 55
+::ffff:127.0.0.1 - - [09/Apr/2024:09:50:37 +0000] "POST /api/persons HTTP/1.1" 400 34
+::ffff:127.0.0.1 - - [09/Apr/2024:09:51:07 +0000] "POST /api/persons HTTP/1.1" 201 47
+::ffff:127.0.0.1 - - [09/Apr/2024:09:55:09 +0000] "POST /api/persons HTTP/1.1" 201 47
